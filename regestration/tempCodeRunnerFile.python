@@ -1,0 +1,6 @@
+import calendar
+year=int(input("enter the year :"))
+month=int(input("enter month:"))
+for x in range(1,month+1):
+    data=calendar.month(year,x)
+    print(data)
